@@ -7,8 +7,7 @@ int main(){
     cout << "nhap diem ly: "; cin >> ly;
     cout << "nhap diem hoa: "; cin >> hoa;
 
-    // Dòng 8: Bây giờ máy sẽ hiểu toan, ly, hoa là gì
-    dtb = (toan + ly + hoa) / 3;
+   dtb = (toan + ly + hoa) / 3;
     cout << "Diem trung binh cua ban la: " << dtb << endl;
         
         if (dtb >= 8) 
@@ -24,7 +23,6 @@ else if (dtb >=6.5   )   {
     }
    
     return 0;
-}
 
 
 
