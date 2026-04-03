@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float toan, ly, hoa, dtb; 
+
+    cout << "nhap diem toan: "; cin >> toan;
+    cout << "nhap diem ly: "; cin >> ly;
+    cout << "nhap diem hoa: "; cin >> hoa;
+
+    // Dòng 8: Bây giờ máy sẽ hiểu toan, ly, hoa là gì
+    dtb = (toan + ly + hoa) / 3;
+    cout << "Diem trung binh cua ban la: " << dtb << endl;
+        
+        if (dtb >= 8) 
+cout <<"xep loai gioi " <<endl;
+else if (dtb >=6.5   )   {
+        cout<<"xep loai kha "<<endl;
+} 
+    else if (dtb >= 5) {
+        cout << "xep loai trung binh" << endl;
+    }
+    else{
+        cout <<"can co gang hon"<<endl;
+    }
+   
+    return 0;
+}
+
+
+
+    
